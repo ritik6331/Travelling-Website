@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left:34px;
+    top:20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+
+.mid{
+    display: block;
+    width:33%;
+    margin: 12px auto;
+
+}
+.right{
+    position: absolute;
+    right:34px;
+    top:35px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.navbar{
+    display:inline-block
+}
+.header{
+    /* background-color:  rgb(194, 189, 189); */
+    border-radius: 19px;
+    padding: -1px;
+    
+}
+
+.navbar li{
+    font-weight: bold;
+    color:white;
+    display:inline-block;
+    margin:9px;
+    padding:5px;
+    font-size: 100%;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn{
+    color:gray;
+    background-color:white;
+    border-radius: 19px;
+    size: 12px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.left .left1{
+    color:white;
+    background-color: green;
+    padding: 1px;
+
+}
+.left .left1:hover{
+    background-color:rgb(117, 110, 110);
+}
+.left img{
+    width:70px;
+} 
+.left div{
+    text-align: center;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.navbar li a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+
+    color: gray;
+    text-decoration:lightseagreen;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.btn:hover{
+    color:white;
+}
+
+.left left{
+    color: green;
+}
+.expl a{
+    border:2px solid white;
+    border-radius: 33px;
+    width: 22px;
+}
+.header-containt{
+    /* border:2px solid red; */
+    font-family: 'Baloo Bhaina 2', cursive;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.lg-heading{
+    text-transform: uppercase;
+    
+    font-weight: 700;
+    color:white;
+    margin: 0px;
+
+}
+.text-light{
+   text-transform: uppercase;
+   color:white;
+    margin: 0px;
+}
+.header-containt a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:0.5em 0;
+    background-color: #ffff;
+    color:rgb(241, 26, 26);
+    border-radius: 100px;
+    
+
+}
+.header-containt a:hover{
+    color:white;
+    background-color: rgb(211,13,252);
+}  
+/* ###########################about##################### */
+.about1{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.heading-about{
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right:50px ;
+    color: #181917;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    line-height: 70px;
+    font-weight: bolder;
+}
+.heading-about{
+    color: white;
+}
+
+.image-back{
+    width: 100%;
+    /* background: url('img2.jpg'); */
+    background-image: url('https://source.unsplash.com/collection/190727/1600x600');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:500px ;
+    background-size: auto;
+    overflow: hidden;
+    position: relative;
+}
+.about1{
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+#firstpara{
+    margin-top: -28px;
+    /* border: 2px solid green; */
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+
+}   
+.second-heading{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.second-para{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+.first-h3{
+    text-align: center;
+    font-size: xx-large;
+    line-height: 60px;
+}
+.face i{
+    color: white;
+}
+.last1 p{
+    color: white;
+}
+.last1{
+    background-color: #434441;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 12px;
+}
+.fa{
+    padding: 1px;
+}
+.face i{
+    margin: 1rem;
+}
